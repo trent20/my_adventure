@@ -1,0 +1,100 @@
+h1{
+ color: blue
+}
+h2{
+    color: red;
+}
+header{
+   margin: auto;
+}
+.cursive{
+    font-family: cursive;
+}
+main{
+    max-width: 800px;
+    color: whitesmoke;
+    position: relative;
+    margin: auto;
+    background-color: black;
+    border: white;
+    border-radius: 20px;
+}
+img{
+    height: 66%;
+    width: 66%;
+}
+.center{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+a{
+    color: blue; 
+}
+#dollar{
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.unc{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
+.ob{
+    background-color: white;
+    color: black;
+}
+.clr{
+    background-color: yellow;
+}
+.ch2{
+    background-color: red;
+}
+.ch2 h2{
+    color: white;
+}
+.ini{
+    background-color: royalblue;
+}
+.fir{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.end{
+    background-color: teal;
+    color: black;
+}
+#end{
+    background-color:black;
+}
+.responsive{
+    margin:auto;
+    float:center;
+    width:100%
+}
+@media only screen and (max-width: 900px) {
+  .responsive {
+    margin: auto;
+    width: 75%;
+  }
+}  
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 50%;
+  }
+}
+@media only screen and (max-width:400px){
+    .responsive{
+        width: 25%;
+    }
+}
